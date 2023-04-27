@@ -8,14 +8,14 @@ function Cover() {
     <div>
       <Carousel>
         <Carousel.Item>
-        <video src={vd} autoPlay loop muted style={{width:"100%",height:"80vh"}}/>
+        <video src={vd} autoPlay loop muted />
           <Carousel.Caption>
             <h3>Devil's Mile</h3>
             <p>A relentlessly-paced hybrid of gritty crime thriller and Lovecraftian supernatural horror, The Devil's Mile follows a trio of kidnappers who take an ill-advised detour en route to deliver...</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-           <video src={vd2} autoPlay loop muted style={{width:"100%",height:"80vh"}}/>
+           <video src={vd2} autoPlay loop muted />
 
           <Carousel.Caption>
             <h3>Once Upon A Time In The west</h3>
@@ -23,7 +23,7 @@ function Cover() {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-           <video src={vd3} autoPlay loop muted style={{width:"100%",height:"80vh"}}/>
+           <video src={vd3} autoPlay loop muted />
           <Carousel.Caption>
             <h3>Taxi Driver</h3>
             <p>
